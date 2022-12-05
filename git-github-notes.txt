@@ -34,3 +34,6 @@ Reupload git commit
 	git push
 
 Password sign in for Mac = Homebrew + brew install gh
+
+NEED to learn:
+How to change repository

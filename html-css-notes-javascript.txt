@@ -3,17 +3,28 @@ Html notes
 Html - Hypertext markup language
     - structor of a page
     - <tagname></tagname> or <open tag attribute="vaule">
-    Step 1 DOCTYPE - Make sure it is set up as <!DOCTYPE html> and a stand alone
-    Step 2 head tag - elements not hidden visible in the browser
-        - script tag
-        - title tag
-    Step 3 body tag -
-        -All visible elements in browser
-
-
+    -Basic tags
+        -DOCTYPE - Make sure it is set up as <!DOCTYPE html> and a stand alone
+        -head tag - elements not hidden visible in the browser
+            - script tag - links scripts to a page for a function
+            - title tag - shows up on browser tag
+            - meta -
+        -body tag -
+            - All visible elements in browser
+            - Sectioning: No styles or look simple used for organizing 
+                - header - Top with logo and nav items, maybe search tool
+                    - nav
+                - main - largest bulk of the content
+                    - article
+                    - section
+                    - div
+                - footer - bread crumb
+                - aside
+                - span - inline element mod linked to css 
+    
 CSS - Cascading Style Sheet
     - how the html structor looks
-    -selector {
+    - selector {
         detail: blue;
         detail: 2pt solid;
     }
