@@ -1,6 +1,27 @@
 Html notes
 
 Html - Hypertext markup language
+    - structor of a page
+    - <tagname></tagname> or <open tag attribute="vaule">
+    Step 1 DOCTYPE - Make sure it is set up as <!DOCTYPE html> and a stand alone
+    Step 2 head tag - elements not hidden visible in the browser
+        - script tag
+        - title tag
+    Step 3 body tag -
+        -All visible elements in browser
+
+
+CSS - Cascading Style Sheet
+    - how the html structor looks
+    -selector {
+        detail: blue;
+        detail: 2pt solid;
+    }
+
+JavaScript - functions
+    - provides interactive functions to html
+    - logical operations
+    - syntax is important
 
 Https - Hypertext transfer protocol
 
@@ -11,5 +32,5 @@ IP address - location of a directory on the internet/server
 Browser - App used to view files pulled from IP address
 
 How it all flows:
-
 A browsers sends a request to find an IP inside of the DNS. The DNS confirms the IP/domain name and pulls the files into the browser using https.
+
