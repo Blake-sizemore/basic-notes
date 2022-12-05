@@ -1,0 +1,33 @@
+Command Line ( terminal/Cmder)
+
+Gen. Hierarch: command flag(s) argument1 argument2 etc.
+
+List of learned commands
+man - manuel for all a
+touch - make file
+pwd - print working directory - show me where this terminal is working from ( show where your working directory are ) 
+ls - list - shows contents of directory (shows what '92s in the location I am at) 
+cd - change directory - change directory to select items in current directory 
+	- cd .. - go up one folder (   ..   means go to parent folder) 
+mkdir - make directory - make a folder  
+Mv - move folders to rename folders 
+	- mv filename1.txt filename2.txt (changes file names) 
+	- mv filename1.txt .. (pull up a folder) 
+	- mv filename1.txt folder2 (moves file into   folder2  ) 
+ 
+Cp - copy a file and possible rename 
+Code - will open visual studio code ( no location associated)  
+	- code . - opens current directory in terminal (   .   means current folder) 
+Rm - remove - NO UNDOING - only for files 
+	-rf    folder name   - deletes folders and contents inside of folder NO UNDOING 
+	-rf   is a flag 
+ 
+FASTER moving of files
+ 
+Mv greeting.txt ../testfolder 
+ 
+Use Tab to complete code sections with unique id parts 
+Use up and down arrow for previous codes 
+
+
+

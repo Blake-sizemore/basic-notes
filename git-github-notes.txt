@@ -1,0 +1,36 @@
+VERSION CONTROL: Git and GitHub
+Source control - a system the controls revision made to codebases with a given team 
+ 
+Git - Specific open source version control system (Linus Torvalds) , System that controls entire database and history on every dev '92s computer  which allows for branching and merging 
+	Local Repository 
+GitHub - cloud based git repository hosting source, allows for teams to collaborate on  
+	Remote Repository 
+GUI - Graphics  
+ 
+Git install for Mac Req.
+Homebrew install also req.
+Git config options for credit need to be set
+	git config --global user.name "Blake Sizemore"
+	git config --global user.email "magnifymore@gmail.com" 
+
+Creating the Git album
+	git init
+Arrange files to Git album
+	git add .
+		git add "file or folder" for on uplaod at a time
+Final placement of select items
+	git commit -m "add message"
+Linking for git push
+	git remote add -u origin "URL"
+Uploading the 
+	git push -u origin master
+
+Checking for status of all files under the master
+	git status
+
+Reupload git commit
+	git add ,
+	git commit -m "notes"
+	git push
+
+Password sign in for Mac = Homebrew + brew install gh
