@@ -1,0 +1,56 @@
+h1 {
+ font-size: 2em;
+}
+
+h2 {
+ font-size: 1.5em;
+}
+
+h3 {
+ font-size: 1.3em;
+}
+
+h4 {
+ font-size: 1em;
+}
+ 
+h5 {
+ font-size: 0.8em;
+}
+
+h6 {
+ font-size: 0.7em;
+}
+
+.text-center  {
+    text-align: center;
+  }
+
+.text-red{
+    color: red;
+}
+
+#submitButtonRed {
+    background-color: red;
+}
+
+[for="email"] {
+    font-weight: bold;
+}
+
+section {
+border: dashed;
+padding: 10px;
+margin: 25px;
+}
+
+header{
+border: solid;
+padding: 10px;
+margin: 25px;
+}
+/* comment in CSS */
+/* 
+margin: 0; = m0
+padding:  */
+ 

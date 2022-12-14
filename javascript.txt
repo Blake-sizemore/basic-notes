@@ -1,0 +1,80 @@
+all javascript is linked into the html doc. using <script src="></script>
+
+Varaibles: 
+    how to create and define Varaibles
+        - var firstName = "content"
+            Methaphor: titled storage box with items in it
+        - var
+            creates Variable ( the box )
+        - firstName 
+            is the name of the variable ( title of box )
+        - = 'content'  
+            is the content of the named variable  ( what we have storted in the box )
+            The reason to create the var(box) is so later we can reference the box and using its content.
+
+    How to open a Varaible and using methods
+        console.log(firstName)
+
+
+    Other ways to define a varaible:
+        var - can change var 
+        let - can change let (newer do not use)
+        const - can not change 
+
+    coding:
+        console.log('Hello World!');
+
+        var firstName  = "Blake";
+
+        let lastName = 'Sizemore';
+
+        const fullName = 'Blake Sizemore';
+       
+        console.log(fullName);
+        console.log(firstName);
+        console.log(lastName)
+
+Data types: javascript is a zero based 
+        string - var name = 'name';
+            text
+        numbers - var age = 12;
+            numarical 
+        boolean - var isMale = true;
+                - var isFemale = false;
+        null - var surname = null:
+            no vaule, replaces undefined or error
+        
+        Object - var title = {} this is an object with nothing in it. 
+            var person = { name:firstName, age:age, dob:'10/02/1990'}    
+                person.age;
+                person.name;
+                person.dob;
+
+            console.log(person)
+
+                creates an object data type to is multi functional
+        
+        Array - var friends=['Will','Andrew','Jeff','Cory'];
+
+            Functions = push ( add to array end )
+                        pop ( remove )
+                        unshift ( adding something into the array )
+                        slice ( returns a section of the array )
+
+Operator
+    var a = (5 + 7)
+    console.log(a);
+        + - * /
+        += (fast equations)
+        -=
+        /=
+        *=
+        == ( equals) return boolean statement
+
+Conditional statements
+    var val = 50;
+    if(val == 50) {
+        console.log('true');
+    }else {
+        console.log('false)
+    }

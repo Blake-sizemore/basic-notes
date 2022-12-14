@@ -15,19 +15,89 @@ Html - Hypertext markup language
                 - header - Top with logo and nav items, maybe search tool
                     - nav
                 - main - largest bulk of the content
-                    - article
                     - section
+                    - article
                     - div
                 - footer - bread crumb
                 - aside
                 - span - inline element mod linked to css 
     
 CSS - Cascading Style Sheet
-    - how the html structor looks
-    - selector {
-        detail: blue;
-        detail: 2pt solid;
-    }
+Hint - we can add mutiply classes and elements to a CCS rule set
+    Colors: 
+        default web browser colors
+        hex code colors: #000000
+        RGB(000,250,000);
+        rgba:(000,250,000,.50) - alpha acts as transprancy
+
+    Layouts:
+        Display: 
+            None - makes things hidden ( Javascript )
+            block - They take up a whole width of the section ( they stack up )
+            inline - they line up inline mutiple through a block ( they get in line )
+            inline block - respect inline width and height properties of this element in this block
+    
+    Positioning
+        position:
+            Static - default, block stacking, no top bottom, left right options
+            relative - no direct change, need to apply top bottom left right terms
+            absolute - removes an element from from the overal static flow and makes its container the the parent it is in
+            fixed - fixes the item to the view port, used for navbars
+            float: - default is to
+                left, right, clear: both ( fixs item that have overlap floating errors)
+    
+    Sizing
+        font-size:
+                (old) percent: scalable, default for body is 16px
+            em: scalable, use a whole number 1em =100 percent, 2 = 200percent,  focused off of the parent
+            rems: scale - root em, focus on the root of th  tree
+                (old) pixel: no scale
+        Containers:
+            View port units: (vh,vw) - uses the viewport as the root, mainly for hero image 
+
+    Spacing:
+        Marging: pushes thing away ( makes space )
+            body has a default of 8px - Orange
+            Margin: top right bottom left
+            margin: top/bottom, left/right 
+            margin: all
+        Padding: pushes the border out ( bigger push out from center) 
+            default padding is green and 0
+
+    Typography
+        Font-family:
+            default: times
+            use google font
+            link is a css file
+            @font-face for custom fonts
+                - 'Lato', san-serif
+        font-size: use em
+        font-weight: 400 is standard upper is bolder
+        font-style: italic
+        color: basic color principals
+        text deco: underline, line-through, none, over-line
+        text align: left, right, center, justified
+
+    Borders
+        border: 1px solid black
+            width: 1px
+            style: solid 
+            color: black
+            border-radius: 5px or 50%
+        boxshadow: 5px 5px 5px 5px black
+            trick - cssmatic.com
+                -gradient
+                -border radius
+                -nosie texture
+                - box shadow
+        hr - horizontal rule
+            width: 
+
+    Background: url('./assest')
+        color: white ()
+        background-size: cover ( all corner), contain ( show entire image , deault repeat )
+        background-position: top, bottom, left, right, 
+        background-repeat: no-repeat: 
 
 JavaScript - functions
     - provides interactive functions to html

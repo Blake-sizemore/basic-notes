@@ -5,6 +5,9 @@ Git - Specific open source version control system (Linus Torvalds) , System that
 	Local Repository 
 GitHub - cloud based git repository hosting source, allows for teams to collaborate on  
 	Remote Repository 
+	Github file size limits of 100.00 mb
+		try to build limited file size template holders
+		
 GUI - Graphics  
  
 Git install for Mac Req.
@@ -37,3 +40,4 @@ Password sign in for Mac = Homebrew + brew install gh
 
 NEED to learn:
 How to change repository
+

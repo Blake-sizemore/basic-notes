@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head> <!--non visible elements (mostly) title favicon-->
+    <title>Page 1</title>
+    <link rel="stylesheet" href="basic.css"> <!--CC add-->
+    <link rel="shortcut icon" href="assests/Untitled-2.svg" type="image/x-icon"> <!-- favicon add-->
+    <script src="test.js"></script><!--The script tag added to head will run JS automatically before page loads-->
+</head>
+<body> <!--all visible and interactive elements-->
+    <header> <!--navigation bar, search bar, updates, log on, sign up,  and logos -->
+        <nav>Navigation bar inside of Header</nav>
+        <p><a href="section sample.html">go to Covalence Section Sample page</a></p>
+        <p><a href="section sample.html" target="_blank" rel="noopener noreferrer">blank target link creates a new tab</a></p>
+    </header>
+    <main> <!-- Aricles, sections-->
+        <section> <!--Requirements-->
+            <article>
+                <h2>Required sturtures of html</h2>
+                <p>All html files needs certain items in order for a web site to become visable on a page</p>
+                    <ol>
+                        <li>!DOCTYPE html</li>
+                        <li>html</li>
+                        <li>head</li>
+                        <li>body</li>
+                    </ol>
+            </article>
+            <article>
+                <h4>Links to review for basic requirements of html</h4>
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started">MDN getting started with HTML</a>
+            </article>
+        </section>
+        <section><!--Section organization -->
+            <article>
+                <h1>Sections Content</h1>
+                <p>html has structure elements to aid in organiztion and coding heirarchy of content. The following are those basic element tags:</p>
+                <ul>
+                    <li>html</li>
+                    <li>head</li>
+                    <li>title</li>
+                    <li>meta</li>
+                    <li>script</li>
+                    <li>link</li>
+                    <li>body</li>
+                    <li>header</li>
+                    <li>nav</li>
+                    <li>main</li>
+                    <li>section</li>
+                    <li>section</li>
+                    <li>aside</li>
+                    <li>footer</li>
+                </ul>
+            </article>
+            <article>
+                <h2>Links to review for section elements</h2>
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure">Document and Website Structure</a>
+            </article>
+            <!--When adding a script tag to the body the JS waits for page loads-->
+        </section>
+        <section> <!--Type organization-->
+            <article> <!--h1-h6 and other samples-->
+                <h1>Typography</h1>
+                <p>This section will cover the following elements:</p>
+                <ul>
+                    <li>h1-h6</li>
+                    <li>p</li>
+                    <li>span</li>
+                    <li>ul</li>
+                    <li>ol</li>
+                    <li>a</li>
+                </ul>
+                <ol>
+                    <li><h1>test of heading</h1></li>
+                    <li><h2>test of heading</h2></li>
+                    <li><h3>test of heading</h3></li>
+                    <li><h4>test of heading</h4></li>
+                    <li><h5>test of heading</h5></li>
+                    <li><h6>test of heading</h6></li>
+                </ol>
+            </article>
+            <article> <!-- Links for more review -->
+                <h2>Links to review for section elements</h2>
+                <a href="https://devdocs.io/html/element">MDN - html elements</a><br>
+                <a href="https://devdocs.io/html/block-level_elements">MDN - Block-Level elements</a><br>
+                <a href="https://devdocs.io/html/inline_elements">MDN - Inline elements</a>
+            </article>
+        </section>
+        <section> <!--Forms and functional html-->
+            <h1>Form</h1>
+            <p>basic interactive elements for email, messages, and any button submission process</p>
+            <ul>
+                <li> <!-- desciption-->
+                    <p>forms are active elements that allow for submission and input</p>
+                    <p>form action ="" /form</p>
+                    <p>the action feature will be revisted later</p>
+                </li><br>
+                <li> <!-- text -->
+                    input = text, type = email, placeholder = email
+                    <form action="">
+                        <input type="text" type="email" placeholder="email">
+                    </form>
+                </li><br>
+                <li> <!-- number -->
+                    input = number, placeholder = # <br>
+                    <form action="">
+                        <input type="number" placeholder="#">
+                    </form>
+                </li><br>
+                <li> <!-- telephone -->
+                    input = tel "telephone", placeholder = 111-111-1111
+                    <form action="">
+                        <input type="tel" placeholder="111-111-1111">
+                    </form>
+                </li><br>
+                <li> <!-- checkbox -->
+                    input type = checkbox, name = checkbox1
+                    <form action="">    
+                        <input type="checkbox" name="checkbox1"> Checkbox 1
+                        <input type="checkbox" name="checkbox1"> Checkbox 2
+                    </form>
+                </li><br>
+                <li> <!-- radio unique-->
+                    input type = radio, name/s = radio1,radio2 
+                    <form action="">
+                        <input type="radio" name="radio1" > radio 1
+                        <input type="radio" name="radio2" > radio 2
+                    </form>
+                </li><br>
+                <li> <!-- radio shared -->
+                    input type = radio, name = radio1
+                    <form action="">
+                        <input type="radio" name="radio1" > radio 3 - same name
+                        <input type="radio" name="radio1" > radio 3 - same name
+                    </form>
+                </li><br>
+                <li> <!-- messgae -->
+                    input type = message, id = XX , cols = 20 , rows = 1
+                    <form action="">
+                        <textarea name="message" id="" cols="20" rows="1"></textarea>
+                    </form>
+                </li><br>
+                <li> <!-- button -->
+                    button type = submit *text* /button
+                    <form action=""> 
+                        <button type="submit">Save something</button> Button usually need a submit designation
+                    </form>
+                </li> <br>
+                <li> <!-- select dropdown-->
+                    select  name = states, id=""<br>option value = "" <br> option value = ""<br>etc, etc /select
+                    <form action="">
+                        <select name="states" id="">
+                            <option value="1">TN</option>
+                            <option value="2">GA</option>
+                            <option value="3">TX</option>
+                            <option value="4">NC</option>
+                        </select>
+                    </form>
+                </li>
+            </ul>
+        </section>
+        <section> <!--images, videos, and audio-->
+            <article>
+                <h1>Images, sounds, and video</h1>
+                <p>Images, sounds and videos are unique items that require their own tags and adjustments</p>
+                <p>image</p>
+                <img src="assests/Screen Shot 2022-12-06 at 2.17.37 PM.png" width="500px" lt=""><br>
+                <p>audio</p>
+                <audio src="assests/Blake - Christmas-.3gp" width="500px" controls></audio><br>
+                <p>video</p>
+                <video src="assests/2016_0125_023118_001.MOV" width="500px" controls autoplay></video>
+            </article>
+            <article> <!-- Links for more review -->
+                <h2>Links to review for section elements</h2>
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding">MDN - Multimedia and embbeding in Html</a><br>
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML">MDN - Image in html</a><br>
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content">MDN - Video and audio content html</a>
+            </article>
+        </section>
+        <section>
+            <div>this is a div tag which is like an unnamed tag</div>
+        </section>
+    </main>
+    <footer>This is a footer</footer>
+</body>
+</html>

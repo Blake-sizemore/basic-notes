@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="basic.css">
+</head>
+
+<body>
+    <div>
+        <header><!-- div>(header>h1+p)+(section>h2+p+ul>li*4)*3 -->
+            <h1 class="text-center text-red">css basics</h1>
+            <p>basic way to link a css file to an html file is to add an "link:css" to the head of the html doc.</p>
+            <p>The cascading styles are based off of parent>child relation ship. If you make body { color: red } all other tags inside of body will turn red by default.</p>
+        </header>
+        <section>
+            <h2>Selectors</h2>
+            <ul>
+                <li>Elements</li>
+                <ul>
+                    <li> Any and all tags used in html</li>
+                    <li>ie: h1-h6, a, body, section, article </li>
+                </ul>
+                <li>Classes</li>
+                <ul>
+                    <li>Are any title (you can make them up) that starts with a .</li>
+                    <li>Can be applied to mutiply elements</li>
+                    <li>Be descritive:  .text-center is good example</li>
+                    <li>using more than one class on a tag is possible, instead of adding to many rules to single class</li>
+                    <ul>
+                        <li>class="text-center text-red" : use a space between each additional class</li>
+                    </ul>
+                </ul>
+                <p></p>
+                <li>ID's</li>
+                <ul>
+                    <li>Are any title (you can make them up) that starts with a #</li>
+                    <li>Can be applied to single elements, exist only ONCE per page</li>
+                    <li>Best practice for ID naming is camel case: submitButtonRed</li>
+                </ul>
+                <li>Attributes</li>
+                <ul>
+                    <li>Least common selector that finds and is aimed directly at specific attributes of elements</li>
+                    <li>uses [] as it call out: [for="email"]</li>
+                    <li></li>
+                </ul>
+                <li></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Rulesets</h2>
+            <p>The grouping of rules in a css class, id, or element </p>
+            <ul>
+                <li>any thing inside of { } in a css file</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Rules</h2>
+            <p>the individual rule for each item </p>
+            <ul>
+                <li>font-size</li>
+            </ul>
+        </section>
+        <section>
+            <h2>CSS emment</h2>
+            <p>the individual rule for each item </p>
+            <ul>
+                <li>font-size</li>
+            </ul>
+        </section>
+        <section>
+            <h2 class="text-center">Log In</h2>
+            <form action="">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="" required></input>
+                    <label for="password">password</label>
+                    <input type="password" name="password" id="" required>password</input>
+                    <button id="submitButtonRed">Login</button>
+                </form>
+        </section>
+    </div>
+    <footer class="text-center"><p>footer</p></footer>
+</body>
+
+</html>
