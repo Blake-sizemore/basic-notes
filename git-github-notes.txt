@@ -40,4 +40,7 @@ Password sign in for Mac = Homebrew + brew install gh
 
 NEED to learn:
 How to change repository
+Cleaning commit log after files attempts
+	- use git reset HEAD~ "number of get you are "Ahead" in when viewing git status"
+	- also check out GIT LFS : brew install git-lfs - check with git lefs install = git lfs initialized
 
