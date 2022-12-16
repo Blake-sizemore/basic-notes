@@ -16,25 +16,30 @@ Git config options for credit need to be set
 	git config --global user.name "Blake Sizemore"
 	git config --global user.email "magnifymore@gmail.com" 
 
-Creating the Git album
-	git init
-Arrange files to Git album
-	git add .
-		git add "file or folder" for on uplaod at a time
-Final placement of select items
-	git commit -m "add message"
-Linking for git push
-	git remote add -u origin "URL"
-Uploading the 
-	git push -u origin master
 
-Checking for status of all files under the master
-	git status
+Quick git Reference
+ 
+First Push for a Project/Lab
 
-Reupload git commit
-	git add ,
-	git commit -m "notes"
-	git push
+git init
+git add .
+git commit -m "initial commit"
+git remote add origin PASTE_YOUR_URL
+git push -u origin master
+
+ 
+Completed a Lab Step or Made Some Changes
+
+git add .
+git commit -m "completing lab step 2"
+git push
+
+These are simply repeated for each lab step you complete, or just pushing your final lab code to GitHub.
+ 
+Repetition
+
+And remember this process is repeated for each new lab or project folder you make. NOT SUBFOLDERS OF THE SAME PROJECT.
+
 
 Password sign in for Mac = Homebrew + brew install gh
 
