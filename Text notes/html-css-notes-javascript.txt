@@ -1,0 +1,16 @@
+JavaScript - functions
+    - provides interactive functions to html
+    - logical operations
+    - syntax is important
+
+Https - Hypertext transfer protocol
+
+DNS - Domain Name Server
+
+IP address - location of a directory on the internet/server
+
+Browser - App used to view files pulled from IP address
+
+How it all flows:
+A browsers sends a request to find an IP inside of the DNS. The DNS confirms the IP/domain name and pulls the files into the browser using https.
+

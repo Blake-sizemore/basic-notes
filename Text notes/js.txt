@@ -1,0 +1,14 @@
+
+Operators:
+Shorter versions functions:
+=>
+
+function nameOfFunction (x,y){
+    function details x * y
+}
+
+Short math ops: x = x + y
++= / -=
+
+x = x + y / x += y
+x = x - y / x -= y
